@@ -1,0 +1,31 @@
+{
+  "name": "elegant-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/silence717/elegant-ui.git",
+  "author": "Silence <yangfang2028@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "lint": "tslint 'src/**/*.ts'",
+    "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "husky": "^2.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.0",
+    "tslint": "^5.16.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-merge": "^4.2.1"
+  }
+}

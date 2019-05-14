@@ -1,2 +1,2 @@
-# elegant-ui
-react component
+## elegant-ui
+react simple components 
