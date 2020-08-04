@@ -22,3 +22,6 @@ yarn-error.log*
 
 # webpack default dist folder
 dist/
+
+// test folder
+coverage/

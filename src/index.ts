@@ -1,7 +1,5 @@
 import './index.less';
 
-function log() {
-    console.log('just log a  msg');
+export function sum(a: number, b: number) {
+	return a + b;
 }
-
-log();
