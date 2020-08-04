@@ -16,7 +16,7 @@ module.exports = ({ mode } = { mode: 'development' }) => {
 		{
 			mode,
 			entry: {
-				'elegantUI': './src/index.ts'
+				'tsSeed': './src/index.ts'
 			},
 			devtool: 'cheap-module-eval-source-map',
 			resolve: {
